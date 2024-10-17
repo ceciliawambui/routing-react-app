@@ -1,22 +1,22 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-// import About from './components/About';
-import Button from './components/Button';
-import DaysList from './components/DaysList';
-import List from './components/List';
-import TaskList from './components/TaskList';
-import Todo from './components/Todo';
-import TodoList from './components/TodoList';
-import UserList from './components/UserList';
-// import Contact from './components/Contact';
-// import Home from './components/Home';
-// import Projects from './components/Projects';
-// import Services from './components/Services';
+import About from './components/About';
+// import Button from './components/Button';
+// import DaysList from './components/DaysList';
+// import List from './components/List';
+// import TaskList from './components/TaskList';
+// import Todo from './components/Todo';
+// import TodoList from './components/TodoList';
+// import UserList from './components/UserList';
+import Contact from './components/Contact';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import Services from './components/Services';
 
 function App() {
   return (
     <div className="App">
-      {/* <nav className="bg-blue-600 p-4 shadow-lg">
+      <nav className="bg-blue-600 p-4 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white text-lg font-bold">
             <Link to="/" className="hover:text-gray-300">MyApp</Link>
@@ -40,14 +40,14 @@ function App() {
         <Route path='/projects' element={<Projects />} />
         <Route path='/services/*' element={<Services/>} />
 
-      </Routes> */}
+      </Routes>
       {/* <Button/> */}
       {/* <List/> */}
       {/* <DaysList/> */}
       {/* <TodoList/> */}
       {/* <UserList/> */}
       {/* <TaskList/> */}
-      <Todo/>
+      {/* // <Todo/> */}
 
 
     </div>
